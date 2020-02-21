@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Sledgehog Software</title>
+		<meta name="description" content="The official website of Sledgehog Software.">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/w3.css">
+		<link rel="stylesheet" href="assets/css/w3-colors-flat.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="icon" href="assets/favicon.ico" type="image/x-icon"/>
+	</head>
+	<body>
+		<!-- Header -->
+		<header class="w3-container w3-flat-wet-asphalt w3-center" style="padding:90px">
+			<h1 class="w3-margin w3-xxxlarge">Sledgehog Software</h1>
+			<p class="w3-xlarge">Where Broc Makes Games.</p>
+			<div class="w3-bar">
+				<a href="https://blog.sledgehogsoftware.com" class="w3-button w3-round w3-blue-grey w3-padding-large w3-xlarge">Blog</a>
+				<a href="https://sledgehog-software.itch.io/" class="w3-button w3-round w3-blue-grey w3-padding-large w3-xlarge">Itch</a>
+			</div>
+		</header>
+
+		<!-- Work-in-Progress Games -->
+		<div class="w3-row-padding w3-flat-clouds w3-padding-64 w3-container">
+			<div class="w3-content">
+				<h1>Work-in-Progress Games</h1>
+				<div class="w3-twothird w3-padding-32">
+					<h5 class="w3-padding-32">A Frail Qubit</h5>
+					<p class="w3-text-grey w3-margin-right">A video game about exploring the inside of a quantum computer as a Qubit.<br>New Alpha Version out now!</p>
+				</div>
+				<div class="w3-third w3-center w3-padding-32">
+					<div class="w3-card-4 zoom">
+						<a href="a-frail-qubit/"><img src="assets/cubytes.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Free Games -->
+		<div class="w3-row-padding w3-flat-clouds w3-padding-64 w3-container">
+			<div class="w3-content">
+				<h1>Free Games</h1>
+				<div class="w3-twothird w3-padding-32">
+					<h5 class="w3-padding-32">Going to Grandmas</h5>
+					<p class="w3-text-grey w3-margin-right">An 11-year old boy goes to his grandmas.<br>Made for the Godot Community Game Jam - June 2018.</p>
+				</div>
+				<div class="w3-third w3-center w3-padding-32">
+					<div class="w3-card-4 zoom">
+						<a href="https://sledgehog-software.itch.io/going-to-grandmas"><img src="assets/going-to-grandmas.png"></a>
+					</div>
+				</div>
+				<div class="w3-twothird w3-padding-32">
+					<h5 class="w3-padding-32">AssaultCube</h5>
+					<p class="w3-text-grey w3-margin-right">Old, one level version of A Frail Qubit.<br>Written in the Chili Framework using C++. Won't be updated.</p>
+				</div>
+				<div class="w3-third w3-center w3-padding-32">
+					<div class="w3-card-4 zoom">
+						<a href="https://forum.planetchili.net/viewtopic.php?t=3882"><img src="assets/cubytes-old.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div id="load_footer"></div>
+		<script src="assets/js/jquery-3.4.1.min.js"></script>
+		<script>
+			$(function() {
+				$("#load_footer").load("assets/footer.html");
+			});
+		</script>
+	</body>
+</html>
