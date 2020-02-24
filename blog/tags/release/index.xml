@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>release on Sledgehog Software</title>
+    <link>https://blog.sledgehogsoftware.com/tags/release/</link>
+    <description>Recent content in release on Sledgehog Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
+    <lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.sledgehogsoftware.com/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alpha 7</title>
+      <link>https://blog.sledgehogsoftware.com/posts/2018-12-24-alpha-7/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.sledgehogsoftware.com/posts/2018-12-24-alpha-7/</guid>
+      <description>The wait for Alpha 7 is finally over, and with it comes brand-new additions such as Lasers, Cheat Codes, and Revamped Graphics!
+Links  Windows (64-bit) Windows (32-bit) macOS (FAT) Linux-X11  Changelog  Added a floor to all Arcade and Story Levels. Added Saving of Story Mode progress (Does not currently save progress within alevel, just what level you&amp;rsquo;re on and some statistics). Added Highscores for Arcade Mode Levels. Added a Timed Laser and Laser.</description>
+    </item>
+    
+    <item>
+      <title>Alpha 6</title>
+      <link>https://blog.sledgehogsoftware.com/posts/2018-09-12-alpha-6/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.sledgehogsoftware.com/posts/2018-09-12-alpha-6/</guid>
+      <description>Alpha 6 is now available to download!
+The main new features for this release is Arcade Mode and Black Holes!
+Links  Windows (64-bit) Windows (32-bit) Linux  Changelog  Added Arcade Mode. Added a completed game flag. Added (but not implemented) Cheat Codes. Added a black hole SFX. Added black holes. Added an additional background effect. Added Explosion and Endblock particle effects. Added Levels 31, 32, 33, 34, 35, 36, 37, 38, 39.</description>
+    </item>
+    
+  </channel>
+</rss>
