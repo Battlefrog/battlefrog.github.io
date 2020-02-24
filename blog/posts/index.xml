@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
-    <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sledgehogsoftware.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>It&#39;s Alive; Or, how I came to revamp this blog.</title>
+      <link>https://sledgehogsoftware.com/blog/posts/2020-02-23-its-alive/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sledgehogsoftware.com/blog/posts/2020-02-23-its-alive/</guid>
+      <description>The blog is alive! And much different!
+&amp;hellip; Wait, how long was I gone for? 11 MONTHS? And what the ever living fuck is &amp;lsquo;A Frail Qubit&amp;rsquo;?
+God, where to begin?
+A Sorefully Needed Update As some of you either have no idea who I am (statistically, that&amp;rsquo;s a minority&amp;hellip;), I&amp;rsquo;d like to explain who I am and (to those of you who has been needing at least an explanation) what the fuck I&amp;rsquo;ve been doing.</description>
+    </item>
     
     <item>
       <title>Cubytes Devlog #003 - Hiatus No More</title>

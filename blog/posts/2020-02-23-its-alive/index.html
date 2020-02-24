@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Cubytes Devlog #003 - Hiatus No More</title>
-  <meta property="og:title" content="Cubytes Devlog #003 - Hiatus No More" />
-  <meta name="twitter:title" content="Cubytes Devlog #003 - Hiatus No More" />
+  <title>It&#39;s Alive; Or, how I came to revamp this blog.</title>
+  <meta property="og:title" content="It&#39;s Alive; Or, how I came to revamp this blog." />
+  <meta name="twitter:title" content="It&#39;s Alive; Or, how I came to revamp this blog." />
   
 
   
 
   <meta name="author" content=""/>
   <meta property="og:site_name" content="Sledgehog Software" />
-  <meta property="og:url" content="https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/" />
+  <meta property="og:url" content="https://sledgehogsoftware.com/blog/posts/2020-02-23-its-alive/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="https://sledgehogsoftware.com/blog//css/style.css" />
   <script type="text/javascript" src="https://sledgehogsoftware.com/blog//js/bundle.js"></script>
   
-<link rel="canonical" href="https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/">
+<link rel="canonical" href="https://sledgehogsoftware.com/blog/posts/2020-02-23-its-alive/">
 </head>
 
 <body>
@@ -60,69 +60,68 @@
 
 <article class="p-article">
   <header>
-    <h1>Cubytes Devlog #003 - Hiatus No More</h1>
+    <h1>It&#39;s Alive; Or, how I came to revamp this blog.</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2019-03-30T00:00:00Z">
-          Mar 30, 2019
+        <time datetime="2020-02-24T00:00:00Z">
+          Feb 24, 2020
         </time>
       </div>
       
-      <a href="https://sledgehogsoftware.com/blog/tags/cubytes" class="c-tag">cubytes</a>
+      <a href="https://sledgehogsoftware.com/blog/tags/a-frail-qubit" class="c-tag">a frail qubit</a>
       
-      <a href="https://sledgehogsoftware.com/blog/tags/devlog" class="c-tag">devlog</a>
+      <a href="https://sledgehogsoftware.com/blog/tags/real-life" class="c-tag">real life</a>
+      
+      <a href="https://sledgehogsoftware.com/blog/tags/release" class="c-tag">release</a>
       
       <a href="https://sledgehogsoftware.com/blog/tags/update" class="c-tag">update</a>
+      
+      <a href="https://sledgehogsoftware.com/blog/tags/website" class="c-tag">website</a>
       
     </div>
   </header>
   
   <section id="js-article" class="p-article__body">
-    <p>After quite a while with radio silence (nearly two months&hellip;) coming from Sledgehog Software, here comes this devlog. Hooray.</p>
-<p>First of all, it was a fat break. Apparently, my mind thought it was too long after Godot 3.1 was announced so I started work on it recently. Here&rsquo;s things I&rsquo;ve changed, added, or deleted.</p>
-<h2 id="balancing">Balancing</h2>
-<p>As more and more levels were added to Cubytes, a form of design debt came up with the older levels.</p>
-<p>One could say that they seemed to be a bit clunky. The first ones most likely haven&rsquo;t been edited in well over eight months, and the architecture on some of the earlier levels conflicted with my understanding of Cubytes&rsquo; universe. Plus, over time I&rsquo;ve gotten better at making levels, as I&rsquo;ve done this as a hobby for 2018 and 2019 at this point.</p>
-<p>So I tweaked all the levels. Well, not all the levels, but a significant fraction of them.</p>
-<p>By <em>tweaked</em> this can mean a couple of different things, depending on the level. For some levels, all I did was play it a couple of times, change a path slightly, and moved on to the next level. For others, I completely changed the layout and there&rsquo;s no comparison to the old.</p>
-<p>These newly balanced levels frankly have not been playtested at all, so I&rsquo;ll need to do that with more people. From my personal, <strong>heavily biased</strong> experience, the levels have became harder.</p>
-<h2 id="architecture">Architecture</h2>
-<p>The architecture of Cubytes was really, up until a couple of weeks ago, up for debate. Since Cubytes isn&rsquo;t <em>exactly</em> based in reality I can make some assumptions, or to put simply just plain make some stuff up about the world in which Cubytes is based in.</p>
-<p>Primarily, the walls were changed. Levels had inconsistencies with the thickness of the walls: Some had one, others two and three, and most of them had some sort of mixture of all three. This had to go, and I changed all of them to be one wall thick.</p>
-<p>Another thing to go was the random symbols scattered around the place. This was odd, as I added them early on expecting me to think of meanings to them later. They&rsquo;re gone now. However, in Level 4&rsquo;s sake, I kept the weird eye things. Just couldn&rsquo;t get myself to delete them.</p>
-<h2 id="godot-306--godot-31">Godot 3.0.6 → Godot 3.1</h2>
-<p>Godot 3.1 came out (which is why I started working on Cubytes again) and new features have come out. Quite a lot of weird quirks that Alpha 7 had have been fixed by simply upgrading to 3.1.</p>
-<p>One of those quirks was the tooltips, textboxes appearing upon hovering over UI elements. For some reason the actual size of the boxes never quite fit the text correctly, resulting in me abandoning the idea of universal tooltips.</p>
-<p>Another quirk was the text of block tutorials being clipped incorrectly to fit the textbox. This was due to something called text supersampling, which makes text look pretty at all resolutions. This however came with a tradeoff of sometimes being terrible at resizing. This is now a non-issue, and everything is fine.</p>
-<h2 id="tweaking-of-block-tutorials">Tweaking of Block Tutorials</h2>
-<p>One thing I realized while playing Cubytes is the dry nature of teaching players new mechanics, aka blocks. The old prompt had a name, a description, and a picture of the block in the UI. This needed to be changed, but I couldn&rsquo;t quite figure out how to change it.</p>
-<p>I still really don&rsquo;t know how to, but I have made it so that the camera zooms in on the specific block, just to give the Player less excuses about not knowing what the block looks like.</p>
-<p>Oh, and also I play a nice, angelic public domain sound effect. It&rsquo;s quite nice, although listening to it on repeat makes it sound like you&rsquo;re in an elevator. Oops&hellip;</p>
-<h2 id="new-music">New Music</h2>
-<p>The music sucked. I know, because they were my tracks. I found some better public domain electronic music and threw it in. It fits better, and it delivers the mood I wanted more effectively.</p>
-<p>I might add some sort of Music playlist feature as DLC perhaps, although it would be a very &lsquo;gamey&rsquo; element to add. Who cares.</p>
-<h2 id="new-camera-system">New Camera System</h2>
-<p>Internally, this is a big deal. This allows me to move the camera in the game world. Previously the levels only really fit on a single screen. This worked well enough for maze-like levels, but for the end game I&rsquo;m thinking of, this camera system works wonders.</p>
-<p>For now, the only real change to this is that when the screen shakes the UI doesn&rsquo;t. Oh well.</p>
-<h2 id="qol-improvements">QOL Improvements</h2>
-<p>There have been multiple quality of life improvements added since I&rsquo;ve restarted development. This is due to me being sort of embarrassed at the lack of polish that&rsquo;s been in public releases (for example, Alpha 5&rsquo;s sound sliders were broken until a new release 4 hours later).</p>
-<p>Here&rsquo;s a non-comprehensive list of them, for your viewing pleasure:</p>
-<ul>
-<li>Add cursor showing &lsquo;logic&rsquo; (Removes the odd cursor being in the way all the time)</li>
-<li>Add universal use of the Escape key to go back Menus</li>
-<li>Disabled the resolution popup when using Fullscreen (It didn&rsquo;t matter)</li>
-</ul>
-<h2 id="removed-help-menu">Removed Help Menu</h2>
-<p>Nobody used it anyway. Plus, it was a glorified link to my Twitter, which judging from my follower count no one ever actually used. So it&rsquo;s gone.</p>
-<p>And that&rsquo;s (basically) it. To release Alpha 8, I must now:</p>
-<ul>
-<li>Add and implement Distortions</li>
-<li>Add some much needed particle effects</li>
-<li>Add more QOL improvements</li>
-<li>Create marketing materials and an itch.io store page</li>
-</ul>
-<p>Let&rsquo;s try to actually get this one out soon. Fingers crossed.</p>
+    <p>The blog is alive! And much different!</p>
+<p><em><strong>&hellip; Wait, how long was I gone for?</strong></em> <strong>11 MONTHS?</strong> And what the ever living <strong>fuck</strong> is &lsquo;A Frail Qubit&rsquo;?</p>
+<p>God, where to begin?</p>
+<h2 id="a-sorefully-needed-update">A Sorefully Needed Update</h2>
+<p>As some of you either have no idea who I am (<em>statistically, that&rsquo;s a minority&hellip;</em>), I&rsquo;d like to explain who I am and (to those of you who has been needing at least an explanation) what the fuck I&rsquo;ve been doing.</p>
+<p>Hello, my name is Broc. I make games in the Godot Engine, but more relevantly and recently I turned 18, graduated High School, and became a freshman at the <strong>great!</strong> Florida State University.</p>
+<p>The last time I published a blog post was on March 30th, 2019. I published it out of obligation; taking on a harsh schedule senior year and loading myself with AP Credits in a last-ditch attempt to boost my GPA meant that working on a video game was quickly brushed off to the side in favor of schoolwork and general procrastination. I was able to have a nice balance prior to Winter Break; Keen Cubytes fans know that&rsquo;s when I released Alpha 7. However, once Fall started my workload quickly fell on my face and I had to choose between failing some end of year exams and releasing a game on Steam; I chose the latter.</p>
+<p>As soon as I graduated (leave early, still get there <strong>very</strong> late due to intense traffic and a useless police officer telling me where to go in vague terms, running to my place in the 400 person line, being on the opposite side of the area to where my parents and family were, throwing the caps, having a nice dinner, balling out the next night.) I had three weeks to relax and have the great last summer before I went into the Summer Semester. Naturally instead of working on a video game I hung out with friends that were going to be shipped off to the military, a college more than two hundred miles away from mine, or simply friends that I most likely would never see again.</p>
+<p>In summer I was quite busy studying and listening to <a href="https://dvonhendryx.bandcamp.com/album/the-ghost-pop-tape"><em><strong>this wonderful album</strong></em></a>, though not as much to excuse me for not working on the game. I did do some game development and I started the template for two other projects; I might make some blog posts about them in the coming weeks. What can I say, my mind was somewhere else during this time.</p>
+<p>The gap between the Summer Semester and the Fall Semester was quite short and nothing of any importance, so we&rsquo;ll skip talking about it.</p>
+<p>In the Fall Semester I briefly restarted work on what was now called A Frail Qubit (more on that later) by doing around 2 and a half weeks of the #100daysofgamedev challenge over on Twitter. You can see the thread of mine <a href="https://twitter.com/sledgehog_s/status/1176306228852449280">here</a>. While I <em>was</em> going to complete the challenge, my inability to balance Trigonometry with a terrible teacher led me to stop game dev for a bit to get that little bit more effort into School. Looking back, it was an unwise decision as I failed that class anyway. Doh!</p>
+<p>From Winter Break and up until about a week ago I was considering about scrapping the project altogether and primarily working on other projects, for a variety of reasons.</p>
+<p>The most major reason was the plot being lackluster and <em>sort of</em> a ripoff of The Talos Principle. You might think, well Broc there is <strong>NO PLOT</strong>. This is true, but for a great deal of time I&rsquo;ve written down and committed to memory a basic plot outline and how it would be delivered (<em>distortions</em>). Turns out that The Talos Principle has the same basic concepts and key points of the plot.</p>
+<p>When I realized this and a couple of more gripes I had with the game I really didn&rsquo;t want to work on it. This remained the case until a couple of weeks ago, where I had some sort of an epiphany: It&rsquo;s my first game, and why the fuck do I need to impress anyone with it? Who cares if the plot sucks, the closest thing the best-selling video game of all time has for a plot is a dragon and a fake dude with white eyes.</p>
+<p>To sum this section up: I wasn&rsquo;t working on the game for quite a while for a variety of reasons, but now I am.</p>
+<h2 id="a-frail-qubit-whats-wrong-with-cubytes">A Frail Qubit? What&rsquo;s wrong with Cubytes?</h2>
+<p>When I first talked about changing the name with some of my friends, they thought I was stupid. &ldquo;Cubytes is a great name!&quot;, they say with no idea of what it&rsquo;s supposed to mean. Honestly, <a href="https://twitter.com/cubytes">this twitter account run by an idiot</a> and <a href="https://cubytes.com/">this quite successful web developer &amp; contractor</a> probably don&rsquo;t either. I can&rsquo;t even remember how I came up with the name&hellip; Wait, that&rsquo;s a lie.</p>
+<p>When I was making the <em>FIRST</em> version of Cubytes (the C++ one), I had a temporary name: AssaultCube. This was already the name of some free and completely dead game. To be frank I probably could have continued to use the name, but I had nothing to assault and it was a terrible name. So, I had to go back to the drawing board.</p>
+<p>I knew I wanted to make a game inside a quantum computer (<em>spoilers!!</em>), and that the player looked like a cube (Let&rsquo;s ignore the fact that Cubes are 3D). Voila- Cubytes! A cube byte! Better. I googled it and only the idiot&rsquo;s Twitter account was shown; A-ha! It&rsquo;s good to use! I also checked the patent database for &lsquo;Cubytes&rsquo; in the US and no results there as well.</p>
+<p>While it probably was fine for a long time, I took longer to make the game. By the time I&rsquo;ve barely made a fun game, a man started an independent business. I didn&rsquo;t want to run the risk of having a lawyer snail-mail me a cease and desist letter ala &lsquo;The Social Network&rsquo;, so I changed the name to A Frail Qubit. Deal with it.</p>
+<h2 id="the-hiccups-of-the-websites-hosting">The Hiccups of the Website&rsquo;s Hosting</h2>
+<p>If you&rsquo;ve tried to visit the website from around Winter Break 2019 to three days ago, you would see clearly that the website wasn&rsquo;t working. My former webhost, DreamHost, while not being harmful to the website cost me too much in proportion to what the service offered me. In an attempt to save myself money, I decided to head over to the big boy: AWS.</p>
+<p>This attempt proved too much for me to handle properly, and AWS never really worked for me; There was too much complexities for hosting static websites and the documentation was very much lacking in this department. Thankfully I was still on the AWS Free Tier for the whole time, so I never got an invoice in my inbox. I then considered switching to Azure, but then I remembered about Github Pages. The integration took about 20 minutes from an empty git repository to my website running fine. Easy! Lesson Learned: Don&rsquo;t overcomplicate things.</p>
+<p>With this new found confidence, I decided to integrate the blog and the website, something I&rsquo;ve always wanted to do (see <a href="/blog/posts/2019-01-15-web-development-head-first/">this old post</a>).</p>
+<h2 id="the-integration-of-the-blog-and-the-website">The Integration of the Blog and the Website</h2>
+<p>At around eight o&rsquo;clock tonight I started this quest; Two hours later it was done.</p>
+<p>I&rsquo;ve wanted to use a static website generator for quite a while now to power my blog and I had my eyes on Jekyll. However, at eight o&rsquo;clock and faced with the annoying task of installing Ruby on a non-Unix based machine, I declined. The next best option I found was <a href="https://gohugo.io/">Hugo</a>, and after a surprisingly simple setup process using Powershell and a handy <a href="https://gohugo.io/getting-started/quick-start/">quick start guide with some great templates</a>, I had a functioning website.</p>
+<p>Translating my blog posts to markdown was a bit of a challenge: The converter I used for blogspot to Hugo specifically did an okay job of adding the header stuff but did not do a good job eliminating the embarassing HTML shit out by blogger nor grabbing my images. However, after going through all of my posts (Luckily I haven&rsquo;t posted much 😉) and manually tweaking the look of the blogs as well as adding the images, the posts were migrated. I then slapped the exported static html pages into a directory of my website, redirected blog.sledgehogsoftware.com to sledgehogsoftware.com/blog and the transformation was complete!</p>
+<h2 id="wait-youve-released-two-new-alphas">Wait, you&rsquo;ve released TWO new Alphas?</h2>
+<p>Some of you might be surprised that the latest version up on the website is Alpha <strong>8</strong>.1. &lsquo;Why didn&rsquo;t you post a devlog, or at least a post telling people that the latest Alpha was released?', you say. I answer, I forgot. oops.</p>
+<p>The original version of Alpha 8 is not downloadable, but you wouldn&rsquo;t want to download it; There was a nasty Crash to Desktop when rebinding keys that I didn&rsquo;t catch in my playtests. If you would like to download the latest version, head over to the <a href="https://sledgehogsoftware.com/a-frail-qubit/#downloads">download page</a>.</p>
+<h2 id="the-future">The Future</h2>
+<p>So, what&rsquo;s going to happen with Sledgehog Software, this blog, and A Frail Qubit?</p>
+<p>Well, I&rsquo;ll continue to work on A Frail Qubit when I can and post progress on Twitter, and more &lsquo;meaty&rsquo; updates here on this blog. I&rsquo;ll also post other forms of game development on this blog as well; I might introduce some of those projects and create a devlog for them as well (I won&rsquo;t forget A Frail Qubit!). For Sledgehog Software, well let&rsquo;s make sure that eventually it&rsquo;ll have its own creator page.</p>
+<h3 id="future-blog-posts">Future Blog Posts</h3>
+<p>For the short-term future, I plan on creating a post that goes through the main changes that has happened since the release of Alpha 8.1 (read the changelog by clicking the Alpha 8.1 text if you <em>really</em> want to know what changed between Alpha 7 and 8), and also posts going through a couple of other projects I am either working on or heavily thinking about.</p>
+<h4 id="peace">Peace</h4>
+<p>Thanks for reading this long-form blog post. This is the longest post on this blog by far, and it&rsquo;s sort of spiraled out of control (It&rsquo;s currently 00:25 while I&rsquo;m typing this&hellip;). A smarter move would be to break up these topics into their own posts for the greatest amount of Search Engine Optimizations.</p>
+<p>That&rsquo;s a load of shit. <em><strong>GOOOOOOOGLE!!!!</strong></em></p>
 
   </section>
   <footer>
@@ -133,12 +132,11 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://sledgehogsoftware.com/blog/posts/2019-01-15-web-development-head-first/">Newer</a>
+          <a href="https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://sledgehogsoftware.com/blog/posts/2020-02-23-its-alive/">Older</a>
           
         </div>
       </div>
@@ -150,23 +148,30 @@
   <ul id="slider" class="p-related__list">
     
     <li class="p-related__item js-related__item">
-      <a href="/blog/posts/2019-01-01-cubytes-devlog-002/"
-        >
-        <span>Cubytes Devlog #002</span>
-      </a>
-    </li>
-    
-    <li class="p-related__item js-related__item">
-      <a href="/blog/posts/2018-12-29-cubytes-devlog-001/"
-        >
-        <span>Cubytes Devlog #001</span>
-      </a>
-    </li>
-    
-    <li class="p-related__item js-related__item">
       <a href="/blog/posts/2018-12-28-url-and-closed-development/"
         >
         <span>URL and Closed Development</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/"
+        >
+        <span>Cubytes Devlog #003 - Hiatus No More</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/blog/posts/2019-01-15-web-development-head-first/"
+        >
+        <span>Web Development, Head First</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/blog/posts/2018-12-24-alpha-7/"
+        >
+        <span>Alpha 7</span>
       </a>
     </li>
     
@@ -178,16 +183,9 @@
     </li>
     
     <li class="p-related__item js-related__item">
-      <a href="/blog/posts/2018-08-28-future-cubytes-releases/"
+      <a href="/blog/posts/2018-09-12-alpha-6/"
         >
-        <span>Future Cubytes Releases</span>
-      </a>
-    </li>
-    
-    <li class="p-related__item js-related__item">
-      <a href="/blog/posts/2019-01-15-web-development-head-first/"
-        >
-        <span>Web Development, Head First</span>
+        <span>Alpha 6</span>
       </a>
     </li>
     

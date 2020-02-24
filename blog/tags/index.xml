@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
-    <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sledgehogsoftware.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>a frail qubit</title>
+      <link>https://sledgehogsoftware.com/blog/tags/a-frail-qubit/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sledgehogsoftware.com/blog/tags/a-frail-qubit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>real life</title>
+      <link>https://sledgehogsoftware.com/blog/tags/real-life/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sledgehogsoftware.com/blog/tags/real-life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>release</title>
+      <link>https://sledgehogsoftware.com/blog/tags/release/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sledgehogsoftware.com/blog/tags/release/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>update</title>
+      <link>https://sledgehogsoftware.com/blog/tags/update/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sledgehogsoftware.com/blog/tags/update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website</title>
+      <link>https://sledgehogsoftware.com/blog/tags/website/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sledgehogsoftware.com/blog/tags/website/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cubytes</title>
@@ -27,33 +72,6 @@
       <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/tags/devlog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>update</title>
-      <link>https://sledgehogsoftware.com/blog/tags/update/</link>
-      <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sledgehogsoftware.com/blog/tags/update/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>website</title>
-      <link>https://sledgehogsoftware.com/blog/tags/website/</link>
-      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sledgehogsoftware.com/blog/tags/website/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>release</title>
-      <link>https://sledgehogsoftware.com/blog/tags/release/</link>
-      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://sledgehogsoftware.com/blog/tags/release/</guid>
       <description></description>
     </item>
     
