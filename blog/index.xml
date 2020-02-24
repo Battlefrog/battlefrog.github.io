@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sledgehog Software</title>
-    <link>https://blog.sledgehogsoftware.com/</link>
+    <link>https://sledgehogsoftware.com/blog/</link>
     <description>Recent content on Sledgehog Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
     <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.sledgehogsoftware.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sledgehogsoftware.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cubytes Devlog #003 - Hiatus No More</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</link>
       <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</guid>
       <description>After quite a while with radio silence (nearly two months&amp;hellip;) coming from Sledgehog Software, here comes this devlog. Hooray.
 First of all, it was a fat break. Apparently, my mind thought it was too long after Godot 3.1 was announced so I started work on it recently. Here&amp;rsquo;s things I&amp;rsquo;ve changed, added, or deleted.
 Balancing As more and more levels were added to Cubytes, a form of design debt came up with the older levels.</description>
@@ -25,10 +25,10 @@ Balancing As more and more levels were added to Cubytes, a form of design debt c
     
     <item>
       <title>Web Development, Head First</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2019-01-15-web-development-head-first/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2019-01-15-web-development-head-first/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2019-01-15-web-development-head-first/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2019-01-15-web-development-head-first/</guid>
       <description>When I first thought of the prospect of making my own company, I quickly realized that I needed to have some sort of online presence (read: website).
 This idea was a little bit scary for me. I had no idea how to make a website, let alone host one. So, I&amp;rsquo;m going to tell you how I did it, and also show you some problems I faced.
 Step 1: Skipping most people&amp;rsquo;s Step 1 Okay, here&amp;rsquo;s the deal: I pretty much knew the basics of HTML and CSS, meaning I understood a lot more than other people starting out with Web Development.</description>
@@ -36,10 +36,10 @@ Step 1: Skipping most people&amp;rsquo;s Step 1 Okay, here&amp;rsquo;s the deal:
     
     <item>
       <title>Cubytes Devlog #002</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2019-01-01-cubytes-devlog-002/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2019-01-01-cubytes-devlog-002/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2019-01-01-cubytes-devlog-002/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2019-01-01-cubytes-devlog-002/</guid>
       <description>As 2018 left and 2019 came, Cubytes received some tweaks and thoughts to the core game added to it recently.
 The Story of Cubytes Looking back on the previously released Alphas, there really wasn&amp;rsquo;t any sense of story. The closest thing that came to a story was the Block Tutorial popups&amp;hellip; which are really just textbox tutorials that have no kind of overarching narrative.
 To make it clear, there is a planned Story (though I&amp;rsquo;m a little murky on an ending) with a planned narrator.</description>
@@ -47,40 +47,40 @@ To make it clear, there is a planned Story (though I&amp;rsquo;m a little murky 
     
     <item>
       <title>Cubytes Devlog #001</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-12-29-cubytes-devlog-001/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-12-29-cubytes-devlog-001/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-12-29-cubytes-devlog-001/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-12-29-cubytes-devlog-001/</guid>
       <description>Why a Devlog? While it is indeed quite late into development, which might not make sense, however it&amp;rsquo;s something to show my day to day progress. This is more important now than it was earlier on, as I&amp;rsquo;m planning on releasing the game in Q1/Q2 2018 and Cubytes is in closed development. Read the last post for more information on that.
 Regardless, what have I done since the release of Alpha 7?</description>
     </item>
     
     <item>
       <title>URL and Closed Development</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-12-28-url-and-closed-development/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-12-28-url-and-closed-development/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-12-28-url-and-closed-development/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-12-28-url-and-closed-development/</guid>
       <description>The blog now has a custom URL! This took some time to sort out (Mostly DNS related issues&amp;hellip; this Blogger instance is running on a DreamHost DNS, which is the main website is setup. Figuring that out was a little hard.) but finally I think it&amp;rsquo;s fine and the two websites should stay up.
 I have moved development to a private Azure git instance, just so my commercial game isn&amp;rsquo;t on github to build and deploy.</description>
     </item>
     
     <item>
       <title>Alpha 7</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-12-24-alpha-7/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-12-24-alpha-7/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-12-24-alpha-7/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-12-24-alpha-7/</guid>
       <description>The wait for Alpha 7 is finally over, and with it comes brand-new additions such as Lasers, Cheat Codes, and Revamped Graphics!
 Links  Windows (64-bit) Windows (32-bit) macOS (FAT) Linux-X11  Changelog  Added a floor to all Arcade and Story Levels. Added Saving of Story Mode progress (Does not currently save progress within alevel, just what level you&amp;rsquo;re on and some statistics). Added Highscores for Arcade Mode Levels. Added a Timed Laser and Laser.</description>
     </item>
     
     <item>
       <title>Alpha 7 When?</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-12-23-alpha-7-when/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-12-23-alpha-7-when/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-12-23-alpha-7-when/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-12-23-alpha-7-when/</guid>
       <description>tomorrow.
 Simple as that.
 Alpha 7. 9pm. Be here.</description>
@@ -88,10 +88,10 @@ Alpha 7. 9pm. Be here.</description>
     
     <item>
       <title>Alpha 6</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-09-12-alpha-6/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-09-12-alpha-6/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-09-12-alpha-6/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-09-12-alpha-6/</guid>
       <description>Alpha 6 is now available to download!
 The main new features for this release is Arcade Mode and Black Holes!
 Links  Windows (64-bit) Windows (32-bit) Linux  Changelog  Added Arcade Mode. Added a completed game flag. Added (but not implemented) Cheat Codes. Added a black hole SFX. Added black holes. Added an additional background effect. Added Explosion and Endblock particle effects. Added Levels 31, 32, 33, 34, 35, 36, 37, 38, 39.</description>
@@ -99,10 +99,10 @@ Links  Windows (64-bit) Windows (32-bit) Linux  Changelog  Added Arcade Mode. Ad
     
     <item>
       <title>Future Cubytes Releases</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-08-28-future-cubytes-releases/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-08-28-future-cubytes-releases/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-08-28-future-cubytes-releases/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-08-28-future-cubytes-releases/</guid>
       <description>Outdated Please note that this blog post was created when I had brainworms. None of these features are &amp;lsquo;in stone&amp;rsquo;, as I publically said in this blog.
 &amp;hellip;
 I&amp;rsquo;d like to set in stone some future deadlines/plans for Cubytes, being the rest of the Alphas bringing more content.

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>update on Sledgehog Software</title>
-    <link>https://blog.sledgehogsoftware.com/tags/update/</link>
+    <link>https://sledgehogsoftware.com/blog/tags/update/</link>
     <description>Recent content in update on Sledgehog Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
     <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.sledgehogsoftware.com/tags/update/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sledgehogsoftware.com/blog/tags/update/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cubytes Devlog #003 - Hiatus No More</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</link>
       <pubDate>Sat, 30 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</guid>
       <description>After quite a while with radio silence (nearly two months&amp;hellip;) coming from Sledgehog Software, here comes this devlog. Hooray.
 First of all, it was a fat break. Apparently, my mind thought it was too long after Godot 3.1 was announced so I started work on it recently. Here&amp;rsquo;s things I&amp;rsquo;ve changed, added, or deleted.
 Balancing As more and more levels were added to Cubytes, a form of design debt came up with the older levels.</description>
@@ -25,20 +25,20 @@ Balancing As more and more levels were added to Cubytes, a form of design debt c
     
     <item>
       <title>URL and Closed Development</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-12-28-url-and-closed-development/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-12-28-url-and-closed-development/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-12-28-url-and-closed-development/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-12-28-url-and-closed-development/</guid>
       <description>The blog now has a custom URL! This took some time to sort out (Mostly DNS related issues&amp;hellip; this Blogger instance is running on a DreamHost DNS, which is the main website is setup. Figuring that out was a little hard.) but finally I think it&amp;rsquo;s fine and the two websites should stay up.
 I have moved development to a private Azure git instance, just so my commercial game isn&amp;rsquo;t on github to build and deploy.</description>
     </item>
     
     <item>
       <title>Alpha 7 When?</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-12-23-alpha-7-when/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-12-23-alpha-7-when/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-12-23-alpha-7-when/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-12-23-alpha-7-when/</guid>
       <description>tomorrow.
 Simple as that.
 Alpha 7. 9pm. Be here.</description>
@@ -46,10 +46,10 @@ Alpha 7. 9pm. Be here.</description>
     
     <item>
       <title>Future Cubytes Releases</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-08-28-future-cubytes-releases/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-08-28-future-cubytes-releases/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-08-28-future-cubytes-releases/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-08-28-future-cubytes-releases/</guid>
       <description>Outdated Please note that this blog post was created when I had brainworms. None of these features are &amp;lsquo;in stone&amp;rsquo;, as I publically said in this blog.
 &amp;hellip;
 I&amp;rsquo;d like to set in stone some future deadlines/plans for Cubytes, being the rest of the Alphas bringing more content.

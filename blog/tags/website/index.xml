@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>website on Sledgehog Software</title>
-    <link>https://blog.sledgehogsoftware.com/tags/website/</link>
+    <link>https://sledgehogsoftware.com/blog/tags/website/</link>
     <description>Recent content in website on Sledgehog Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
     <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.sledgehogsoftware.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sledgehogsoftware.com/blog/tags/website/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Web Development, Head First</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2019-01-15-web-development-head-first/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2019-01-15-web-development-head-first/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2019-01-15-web-development-head-first/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2019-01-15-web-development-head-first/</guid>
       <description>When I first thought of the prospect of making my own company, I quickly realized that I needed to have some sort of online presence (read: website).
 This idea was a little bit scary for me. I had no idea how to make a website, let alone host one. So, I&amp;rsquo;m going to tell you how I did it, and also show you some problems I faced.
 Step 1: Skipping most people&amp;rsquo;s Step 1 Okay, here&amp;rsquo;s the deal: I pretty much knew the basics of HTML and CSS, meaning I understood a lot more than other people starting out with Web Development.</description>
@@ -25,10 +25,10 @@ Step 1: Skipping most people&amp;rsquo;s Step 1 Okay, here&amp;rsquo;s the deal:
     
     <item>
       <title>URL and Closed Development</title>
-      <link>https://blog.sledgehogsoftware.com/posts/2018-12-28-url-and-closed-development/</link>
+      <link>https://sledgehogsoftware.com/blog/posts/2018-12-28-url-and-closed-development/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.sledgehogsoftware.com/posts/2018-12-28-url-and-closed-development/</guid>
+      <guid>https://sledgehogsoftware.com/blog/posts/2018-12-28-url-and-closed-development/</guid>
       <description>The blog now has a custom URL! This took some time to sort out (Mostly DNS related issues&amp;hellip; this Blogger instance is running on a DreamHost DNS, which is the main website is setup. Figuring that out was a little hard.) but finally I think it&amp;rsquo;s fine and the two websites should stay up.
 I have moved development to a private Azure git instance, just so my commercial game isn&amp;rsquo;t on github to build and deploy.</description>
     </item>
