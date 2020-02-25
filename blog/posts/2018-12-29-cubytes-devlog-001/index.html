@@ -68,6 +68,12 @@
           Dec 29, 2018
         </time>
       </div>
+      <div class="c-time">
+        Last Modified on
+        <time datetime="2018-12-29T00:00:00Z">
+          Feb 23, 2020
+        </time>
+      </div>
       
       <a href="https://sledgehogsoftware.com/blog/tags/cubytes" class="c-tag">cubytes</a>
       
@@ -77,6 +83,19 @@
   </header>
   
   <section id="js-article" class="p-article__body">
+    
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-a-devlog">Why a Devlog?</a>
+      <ul>
+        <li><a href="#save--settings-location">Save + Settings Location</a></li>
+        <li><a href="#rebindable-keys">Rebindable Keys</a></li>
+        <li><a href="#scrollable-arcade-mode-level-selection">Scrollable Arcade Mode Level Selection</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    
     <h2 id="why-a-devlog">Why a Devlog?</h2>
 <p>While it is indeed quite late into development, which might not make sense, however it&rsquo;s something to show my day to day progress. This is more important now than it was earlier on, as I&rsquo;m planning on releasing the game in Q1/Q2 2018 and Cubytes is in closed development. Read the last post for more information on that.</p>
 <p>Regardless, what have I done since the release of Alpha 7?</p>
@@ -93,9 +112,18 @@
 
   </section>
   <footer>
-    
-    
-    
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = "sledgehogsoftware";
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </script>
     <nav class="p-pagination c-pagination">
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">

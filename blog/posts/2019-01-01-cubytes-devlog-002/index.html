@@ -68,6 +68,12 @@
           Jan 1, 2019
         </time>
       </div>
+      <div class="c-time">
+        Last Modified on
+        <time datetime="2019-01-01T00:00:00Z">
+          Feb 23, 2020
+        </time>
+      </div>
       
       <a href="https://sledgehogsoftware.com/blog/tags/cubytes" class="c-tag">cubytes</a>
       
@@ -77,6 +83,16 @@
   </header>
   
   <section id="js-article" class="p-article__body">
+    
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-story-of-cubytes">The Story of Cubytes</a></li>
+    <li><a href="#distortions">Distortions.</a></li>
+    <li><a href="#refactored-save-games">Refactored Save Games</a></li>
+    <li><a href="#collecting-variables-in-a-file-class-is-much-easier-than-a-configfile">Collecting variables in a File class is much easier than a ConfigFile.</a></li>
+  </ul>
+</nav>
+    
     <p>As 2018 left and 2019 came, Cubytes received some tweaks and thoughts to the core game added to it recently.</p>
 <h2 id="the-story-of-cubytes">The Story of Cubytes</h2>
 <p>Looking back on the previously released Alphas, there really wasn&rsquo;t any sense of story. The closest thing that came to a story was the Block Tutorial popups&hellip; which are really just textbox tutorials that have no kind of overarching narrative.</p>
@@ -133,9 +149,18 @@ $TabContainer<span style="color:#ff79c6">/</span>Gameplay<span style="color:#ff7
 
   </section>
   <footer>
-    
-    
-    
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = "sledgehogsoftware";
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </script>
     <nav class="p-pagination c-pagination">
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">

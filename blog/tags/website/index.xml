@@ -19,9 +19,7 @@
       
       <guid>https://sledgehogsoftware.com/blog/posts/2020-02-23-its-alive/</guid>
       <description>The blog is alive! And much different!
-&amp;hellip; Wait, how long was I gone for? 11 MONTHS? And what the ever living fuck is &amp;lsquo;A Frail Qubit&amp;rsquo;?
-God, where to begin?
-A Sorefully Needed Update As some of you either have no idea who I am (statistically, that&amp;rsquo;s a minority&amp;hellip;), I&amp;rsquo;d like to explain who I am and (to those of you who has been needing at least an explanation) what the fuck I&amp;rsquo;ve been doing.</description>
+&amp;hellip; Wait, how long was I gone for? 11 MONTHS? And what the ever living fuck is &amp;lsquo;A Frail Qubit&amp;rsquo;?</description>
     </item>
     
     <item>
@@ -30,9 +28,7 @@ A Sorefully Needed Update As some of you either have no idea who I am (statistic
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/posts/2019-01-15-web-development-head-first/</guid>
-      <description>When I first thought of the prospect of making my own company, I quickly realized that I needed to have some sort of online presence (read: website).
-This idea was a little bit scary for me. I had no idea how to make a website, let alone host one. So, I&amp;rsquo;m going to tell you how I did it, and also show you some problems I faced.
-Step 1: Skipping most people&amp;rsquo;s Step 1 Okay, here&amp;rsquo;s the deal: I pretty much knew the basics of HTML and CSS, meaning I understood a lot more than other people starting out with Web Development.</description>
+      <description>When I first thought of the prospect of making my own company, I quickly realized that I needed to have some sort of online presence (read: website).</description>
     </item>
     
     <item>
@@ -41,8 +37,7 @@ Step 1: Skipping most people&amp;rsquo;s Step 1 Okay, here&amp;rsquo;s the deal:
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/posts/2018-12-28-url-and-closed-development/</guid>
-      <description>The blog now has a custom URL! This took some time to sort out (Mostly DNS related issues&amp;hellip; this Blogger instance is running on a DreamHost DNS, which is the main website is setup. Figuring that out was a little hard.) but finally I think it&amp;rsquo;s fine and the two websites should stay up.
-I have moved development to a private Azure git instance, just so my commercial game isn&amp;rsquo;t on github to build and deploy.</description>
+      <description>The blog now has a custom URL! This took some time to sort out (Mostly DNS related issues&amp;hellip; this Blogger instance is running on a DreamHost DNS, which is the main website is setup.</description>
     </item>
     
   </channel>

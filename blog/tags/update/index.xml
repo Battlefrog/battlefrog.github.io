@@ -19,9 +19,7 @@
       
       <guid>https://sledgehogsoftware.com/blog/posts/2020-02-23-its-alive/</guid>
       <description>The blog is alive! And much different!
-&amp;hellip; Wait, how long was I gone for? 11 MONTHS? And what the ever living fuck is &amp;lsquo;A Frail Qubit&amp;rsquo;?
-God, where to begin?
-A Sorefully Needed Update As some of you either have no idea who I am (statistically, that&amp;rsquo;s a minority&amp;hellip;), I&amp;rsquo;d like to explain who I am and (to those of you who has been needing at least an explanation) what the fuck I&amp;rsquo;ve been doing.</description>
+&amp;hellip; Wait, how long was I gone for? 11 MONTHS? And what the ever living fuck is &amp;lsquo;A Frail Qubit&amp;rsquo;?</description>
     </item>
     
     <item>
@@ -31,8 +29,7 @@ A Sorefully Needed Update As some of you either have no idea who I am (statistic
       
       <guid>https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</guid>
       <description>After quite a while with radio silence (nearly two months&amp;hellip;) coming from Sledgehog Software, here comes this devlog. Hooray.
-First of all, it was a fat break. Apparently, my mind thought it was too long after Godot 3.1 was announced so I started work on it recently. Here&amp;rsquo;s things I&amp;rsquo;ve changed, added, or deleted.
-Balancing As more and more levels were added to Cubytes, a form of design debt came up with the older levels.</description>
+First of all, it was a fat break.</description>
     </item>
     
     <item>
@@ -41,8 +38,7 @@ Balancing As more and more levels were added to Cubytes, a form of design debt c
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/posts/2018-12-28-url-and-closed-development/</guid>
-      <description>The blog now has a custom URL! This took some time to sort out (Mostly DNS related issues&amp;hellip; this Blogger instance is running on a DreamHost DNS, which is the main website is setup. Figuring that out was a little hard.) but finally I think it&amp;rsquo;s fine and the two websites should stay up.
-I have moved development to a private Azure git instance, just so my commercial game isn&amp;rsquo;t on github to build and deploy.</description>
+      <description>The blog now has a custom URL! This took some time to sort out (Mostly DNS related issues&amp;hellip; this Blogger instance is running on a DreamHost DNS, which is the main website is setup.</description>
     </item>
     
     <item>
@@ -62,10 +58,7 @@ Alpha 7. 9pm. Be here.</description>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/posts/2018-08-28-future-cubytes-releases/</guid>
-      <description>Outdated Please note that this blog post was created when I had brainworms. None of these features are &amp;lsquo;in stone&amp;rsquo;, as I publically said in this blog.
-&amp;hellip;
-I&amp;rsquo;d like to set in stone some future deadlines/plans for Cubytes, being the rest of the Alphas bringing more content.
-Alpha 6  Major Features: Black Holes, Arcade Mode, Cheat Codes Release Date: Sep 6, 2018  Alpha 7  Major Features: Lasers, Save Games, Arcade Mode Levels 11 - 15 Release Date: Sep 14, 2018  Alpha 8  Major Features: Shaders, High Scores, Animations Release Date: Sep 28, 2018  Alpha 9  Major Features: Arcade Mode Levels 16 - 25, Story Mode complete Release Date: Oct 8, 2018  Alpha 10  Major Features: Some cool end-game stuff, End of Game Release Date: Oct 31, 2018  Those are the planned Alphas at the moment.</description>
+      <description>Outdated Please note that this blog post was created when I had brainworms. None of these features are &amp;lsquo;in stone&amp;rsquo;, as I publically said in this blog.</description>
     </item>
     
   </channel>

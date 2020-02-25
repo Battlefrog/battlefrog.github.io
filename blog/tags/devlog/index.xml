@@ -19,8 +19,7 @@
       
       <guid>https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</guid>
       <description>After quite a while with radio silence (nearly two months&amp;hellip;) coming from Sledgehog Software, here comes this devlog. Hooray.
-First of all, it was a fat break. Apparently, my mind thought it was too long after Godot 3.1 was announced so I started work on it recently. Here&amp;rsquo;s things I&amp;rsquo;ve changed, added, or deleted.
-Balancing As more and more levels were added to Cubytes, a form of design debt came up with the older levels.</description>
+First of all, it was a fat break.</description>
     </item>
     
     <item>
@@ -29,9 +28,7 @@ Balancing As more and more levels were added to Cubytes, a form of design debt c
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/posts/2019-01-15-web-development-head-first/</guid>
-      <description>When I first thought of the prospect of making my own company, I quickly realized that I needed to have some sort of online presence (read: website).
-This idea was a little bit scary for me. I had no idea how to make a website, let alone host one. So, I&amp;rsquo;m going to tell you how I did it, and also show you some problems I faced.
-Step 1: Skipping most people&amp;rsquo;s Step 1 Okay, here&amp;rsquo;s the deal: I pretty much knew the basics of HTML and CSS, meaning I understood a lot more than other people starting out with Web Development.</description>
+      <description>When I first thought of the prospect of making my own company, I quickly realized that I needed to have some sort of online presence (read: website).</description>
     </item>
     
     <item>
@@ -40,9 +37,7 @@ Step 1: Skipping most people&amp;rsquo;s Step 1 Okay, here&amp;rsquo;s the deal:
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/posts/2019-01-01-cubytes-devlog-002/</guid>
-      <description>As 2018 left and 2019 came, Cubytes received some tweaks and thoughts to the core game added to it recently.
-The Story of Cubytes Looking back on the previously released Alphas, there really wasn&amp;rsquo;t any sense of story. The closest thing that came to a story was the Block Tutorial popups&amp;hellip; which are really just textbox tutorials that have no kind of overarching narrative.
-To make it clear, there is a planned Story (though I&amp;rsquo;m a little murky on an ending) with a planned narrator.</description>
+      <description>As 2018 left and 2019 came, Cubytes received some tweaks and thoughts to the core game added to it recently.</description>
     </item>
     
     <item>
@@ -51,8 +46,7 @@ To make it clear, there is a planned Story (though I&amp;rsquo;m a little murky 
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/posts/2018-12-29-cubytes-devlog-001/</guid>
-      <description>Why a Devlog? While it is indeed quite late into development, which might not make sense, however it&amp;rsquo;s something to show my day to day progress. This is more important now than it was earlier on, as I&amp;rsquo;m planning on releasing the game in Q1/Q2 2018 and Cubytes is in closed development. Read the last post for more information on that.
-Regardless, what have I done since the release of Alpha 7?</description>
+      <description>Why a Devlog? While it is indeed quite late into development, which might not make sense, however it&amp;rsquo;s something to show my day to day progress.</description>
     </item>
     
   </channel>

@@ -68,6 +68,12 @@
           Mar 30, 2019
         </time>
       </div>
+      <div class="c-time">
+        Last Modified on
+        <time datetime="2019-03-30T00:00:00Z">
+          Feb 23, 2020
+        </time>
+      </div>
       
       <a href="https://sledgehogsoftware.com/blog/tags/cubytes" class="c-tag">cubytes</a>
       
@@ -79,6 +85,20 @@
   </header>
   
   <section id="js-article" class="p-article__body">
+    
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#balancing">Balancing</a></li>
+    <li><a href="#architecture">Architecture</a></li>
+    <li><a href="#godot-306--godot-31">Godot 3.0.6 → Godot 3.1</a></li>
+    <li><a href="#tweaking-of-block-tutorials">Tweaking of Block Tutorials</a></li>
+    <li><a href="#new-music">New Music</a></li>
+    <li><a href="#new-camera-system">New Camera System</a></li>
+    <li><a href="#qol-improvements">QOL Improvements</a></li>
+    <li><a href="#removed-help-menu">Removed Help Menu</a></li>
+  </ul>
+</nav>
+    
     <p>After quite a while with radio silence (nearly two months&hellip;) coming from Sledgehog Software, here comes this devlog. Hooray.</p>
 <p>First of all, it was a fat break. Apparently, my mind thought it was too long after Godot 3.1 was announced so I started work on it recently. Here&rsquo;s things I&rsquo;ve changed, added, or deleted.</p>
 <h2 id="balancing">Balancing</h2>
@@ -126,9 +146,18 @@
 
   </section>
   <footer>
-    
-    
-    
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = "sledgehogsoftware";
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </script>
     <nav class="p-pagination c-pagination">
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">

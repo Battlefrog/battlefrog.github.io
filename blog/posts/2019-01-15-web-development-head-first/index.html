@@ -68,6 +68,12 @@
           Jan 15, 2019
         </time>
       </div>
+      <div class="c-time">
+        Last Modified on
+        <time datetime="2019-01-15T00:00:00Z">
+          Feb 23, 2020
+        </time>
+      </div>
       
       <a href="https://sledgehogsoftware.com/blog/tags/website" class="c-tag">website</a>
       
@@ -77,6 +83,21 @@
   </header>
   
   <section id="js-article" class="p-article__body">
+    
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#step-1-skipping-most-peoples-step-1">Step 1: Skipping most people&rsquo;s Step 1</a></li>
+        <li><a href="#step-2-learning-how-other-peoples-web-designs-work">Step 2: Learning how other people&rsquo;s web designs work</a></li>
+        <li><a href="#step-3-making-the-site-functional">Step 3: Making the site functional</a></li>
+        <li><a href="#step-4-launching-the-site">Step 4: Launching the Site</a></li>
+        <li><a href="#step-5-it-seems-good-enough">Step 5: It seems good enough</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    
     <p><img src="/blog/static/img/devlog2-earlywebsite.png" alt="A Screenshot of an early version of my website">
 When I first thought of the prospect of making my own company, I quickly realized that I needed to have some sort of online presence (read: website).</p>
 <p>This idea was a little bit scary for me. I had no idea how to make a website, let alone host one. So, I&rsquo;m going to tell you how I did it, and also show you some problems I faced.</p>
@@ -108,9 +129,18 @@ When I first thought of the prospect of making my own company, I quickly realize
 
   </section>
   <footer>
-    
-    
-    
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_shortname = "sledgehogsoftware";
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </script>
     <nav class="p-pagination c-pagination">
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
