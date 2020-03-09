@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
-    <lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sledgehogsoftware.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Frail Qubit Devlog #004 - What&#39;s Been Going On?</title>
+      <link>https://sledgehogsoftware.com/blog/posts/2020-02-25-a-frail-qubit-devlog4/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sledgehogsoftware.com/blog/posts/2020-02-25-a-frail-qubit-devlog4/</guid>
+      <description>Updates, Updates, Updates, and yet more Updates! Sorry for the late post! While I was going to release this a lot sooner (a couple of days after my &amp;ldquo;It&amp;rsquo;s Alive&amp;rdquo; post), I was close to completing a lot of the features that are most exciting (to me at least)!</description>
+    </item>
     
     <item>
       <title>It&#39;s Alive; Or, how I came to revamp this blog.</title>
