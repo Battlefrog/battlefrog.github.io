@@ -6,11 +6,16 @@
     <description>Recent content on Sledgehog Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
-    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sledgehogsoftware.com/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <copyright>&amp;copy; 2021 Sledgehog Software</copyright>
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sledgehogsoftware.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Frail Qubit Devlog #005 - Hey, Another Long Break!</title>
+      <link>https://sledgehogsoftware.com/blog/posts/2021-02-26-a-frail-qubit-devlog5/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sledgehogsoftware.com/blog/posts/2021-02-26-a-frail-qubit-devlog5/</guid>
+      <description>2020: A Year in Review 2020 was a hectic year for everyone, including me. COVID turned up suddenly in March and morphed the &amp;lsquo;Normal&amp;rsquo; into something more blatantly depressing, sad, and alienating.</description>
+    </item>
     
     <item>
       <title>A Frail Qubit Devlog #004 - What&#39;s Been Going On?</title>

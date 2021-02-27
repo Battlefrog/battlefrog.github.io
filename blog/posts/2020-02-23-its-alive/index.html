@@ -25,7 +25,7 @@
   
   
   
-  <meta name="generator" content="Hugo 0.65.3" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <meta name="generator" content="Hugo 0.80.0" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
   <link rel="stylesheet" href="https://sledgehogsoftware.com/blog//css/style.css" />
   <script type="text/javascript" src="https://sledgehogsoftware.com/blog//js/bundle.js"></script>
   
@@ -122,20 +122,20 @@
 <p>When I realized this and also found more gripes I had with the game I really didn&rsquo;t want to work on it. This remained the case until a couple of weeks ago, where I had some sort of an epiphany: <em>It&rsquo;s my first game, and why the fuck do I need to impress anyone with it?</em> Who cares if the plot sucks, <strong>the closest thing the best-selling video game of all time has for a plot is a dragon and a fake dude with white eyes</strong>.</p>
 <p>To sum this section up: I wasn&rsquo;t working on &lsquo;A Frail Qubit&rsquo; for quite a while for a variety of reasons, but now I am.</p>
 <h2 id="a-frail-qubit-whats-wrong-with-cubytes">A Frail Qubit? What&rsquo;s wrong with Cubytes?</h2>
-<p>When I first talked about changing the name with some of my friends, they thought I was stupid. &ldquo;Cubytes is a great name!&quot;, they say with no idea of what it&rsquo;s supposed to mean. Honestly, <a href="https://twitter.com/cubytes">this twitter account run by an idiot</a> and <a href="https://cubytes.com/">this quite successful web developer &amp; contractor</a> probably don&rsquo;t either.</p>
+<p>When I first talked about changing the name with some of my friends, they thought I was stupid. &ldquo;Cubytes is a great name!&rdquo;, they say with no idea of what it&rsquo;s supposed to mean. Honestly, <a href="https://twitter.com/cubytes">this twitter account run by an idiot</a> and <a href="https://cubytes.com/">this quite successful web developer &amp; contractor</a> probably don&rsquo;t either.</p>
 <p>When I was making the <strong>FIRST</strong> version of Cubytes (the C++ one), I had a temporary name: AssaultCube. This was already the name of some <a href="https://assault.cubers.net/">free and completely dead game</a>. To be frank I probably could have continued to use the name, but I had nothing to assault! Because of that, I had to go back to the drawing board.</p>
 <p>I knew I wanted to make a game inside a quantum computer and that the player looked like a cube (Let&rsquo;s ignore the fact that Cubes are 3D). Voila- Cubytes! A cube byte! Better. I googled it and only the idiot&rsquo;s Twitter account was shown; A-ha! It&rsquo;s good to use!</p>
 <p>While it probably was good to use for a long time, I took longer to make the game. By the time I&rsquo;ve barely made a fun game, a man started an independent business, registered cubytes.com, and was doing okay for himself. I didn&rsquo;t want to run the risk of having a lawyer snail-mail me a cease and desist letter (ala &lsquo;The Social Network&rsquo;), so I changed the name to A Frail Qubit. I&rsquo;d argue it&rsquo;s a much name: It makes more sense in terms of the ending, and the cube bit now becomes a <em>quantum bit</em>.</p>
 <h2 id="the-hiccups-of-the-websites-hosting">The Hiccups of the Website&rsquo;s Hosting</h2>
 <p>If you&rsquo;ve tried to visit the website from around Winter Break to three days ago, you would see clearly that the website wasn&rsquo;t working. My former webhost, DreamHost, while not being harmful to the website cost me too much in proportion to what the service offered me. In an attempt to save myself money, I decided to head over to the big boy: AWS.</p>
-<p>This attempt proved too much for me to handle properly, and AWS never really worked for me; There was too much complexities for hosting static websites and the documentation for the DNS service especially was lacking. Thankfully I was still on the AWS Free Tier for the whole time, so I never got an invoice in my inbox, even though I would only pay around $3.00. I then considered switching to Azure as I&rsquo;ve heard that it&rsquo;s more streamlined than AWS, but then I remembered about Github Pages&rsquo; free website hosting. The integration took about 20 minutes from an empty git repository to my website running fine. Easy! Lesson Learned: Don&rsquo;t overcomplicate things and don&rsquo;t go over your head!</p>
+<p>This attempt proved too much for me to handle properly, and AWS never really worked for me; There was too much complexities for hosting static websites and the documentation for the DNS service especially was lacking. Thankfully I was still on the AWS Free Tier for the whole time, so I never got an invoice in my inbox, even though I would only pay around $3.00. I then considered switching to Azure as I&rsquo;ve heard that it&rsquo;s more streamlined than AWS, but then I remembered about Github Pages' free website hosting. The integration took about 20 minutes from an empty git repository to my website running fine. Easy! Lesson Learned: Don&rsquo;t overcomplicate things and don&rsquo;t go over your head!</p>
 <p>With this new found confidence, I decided to integrate the blog and the website, something I&rsquo;ve always wanted to do (see <a href="/blog/posts/2019-01-15-web-development-head-first/">this old post</a>).</p>
 <h2 id="the-integration-of-the-blog-and-the-website">The Integration of the Blog and the Website</h2>
 <p>At around eight o&rsquo;clock tonight I started this quest; Two hours later it was done.</p>
 <p>I&rsquo;ve wanted to use a static website generator for quite a while now to power my blog and I had my eyes on Jekyll. However, at eight o&rsquo;clock and faced with the annoying task of installing Ruby on a non-Unix based machine, I declined. The next best option I found was <a href="https://gohugo.io/">Hugo</a>, and after a surprisingly simple setup process using Powershell and a handy <a href="https://gohugo.io/getting-started/quick-start/">quick start guide with some great templates</a>, I had a functioning website.</p>
 <p>Translating my blog posts to markdown was a bit of a challenge: The converter I used for blogspot to Hugo specifically did an okay job of adding the header stuff but did not do a good job of eliminating the embarassing HTML shit out by blogger or grabbing my images (I had to download all of them manually). However, after going through all of my posts (Luckily I haven&rsquo;t posted much 😉) and manually tweaking the look of the blogs as well as adding the images, the posts were migrated. I then slapped the exported static html pages into a directory of my website, redirected blog.sledgehogsoftware.com to sledgehogsoftware.com/blog and the transformation was complete!</p>
 <h2 id="wait-youve-released-two-new-alphas">Wait, you&rsquo;ve released TWO new Alphas?</h2>
-<p>Some of you might be surprised that the latest version up on the website is Alpha <strong>8</strong>.1. &lsquo;Why didn&rsquo;t you post a devlog, or at least a post telling people that the latest Alpha was released?', you say. I answer, I forgot. oops.</p>
+<p>Some of you might be surprised that the latest version up on the website is Alpha <strong>8</strong>.1. &lsquo;Why didn&rsquo;t you post a devlog, or at least a post telling people that the latest Alpha was released?&rsquo;, you say. I answer, I forgot. oops.</p>
 <p>The original version of Alpha 8 is not currently downloadable, but you wouldn&rsquo;t want to download it; There was a nasty Crash to Desktop when rebinding keys that I didn&rsquo;t catch in my playtests. If you would like to download the latest version, head over to the <a href="https://sledgehogsoftware.com/a-frail-qubit/#downloads">download page</a>.</p>
 <h2 id="the-future">The Future</h2>
 <p>So, what&rsquo;s going to happen with Sledgehog Software, this blog, and A Frail Qubit?</p>
@@ -235,7 +235,7 @@
 
     <p class="p-copyright">
       
-        &copy; 2020 Sledgehog Software
+        &copy; 2021 Sledgehog Software
       
     </p>
   </footer>

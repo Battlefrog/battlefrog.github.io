@@ -6,10 +6,6 @@
     <description>Recent content in Categories on Sledgehog Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
-    
-	<atom:link href="https://sledgehogsoftware.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021 Sledgehog Software</copyright><atom:link href="https://sledgehogsoftware.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

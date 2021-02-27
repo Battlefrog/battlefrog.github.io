@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>Alpha 6</title>
-  <meta property="og:title" content="Alpha 6" />
-  <meta name="twitter:title" content="Alpha 6" />
+  <title>A Frail Qubit Devlog #005 - Hey, Another Long Break!</title>
+  <meta property="og:title" content="A Frail Qubit Devlog #005 - Hey, Another Long Break!" />
+  <meta name="twitter:title" content="A Frail Qubit Devlog #005 - Hey, Another Long Break!" />
   
 
   
 
   <meta name="author" content=""/>
   <meta property="og:site_name" content="Sledgehog Software" />
-  <meta property="og:url" content="https://sledgehogsoftware.com/blog/posts/2018-09-12-alpha-6/" />
+  <meta property="og:url" content="https://sledgehogsoftware.com/blog/posts/2021-02-26-a-frail-qubit-devlog5/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="https://sledgehogsoftware.com/blog//css/style.css" />
   <script type="text/javascript" src="https://sledgehogsoftware.com/blog//js/bundle.js"></script>
   
-<link rel="canonical" href="https://sledgehogsoftware.com/blog/posts/2018-09-12-alpha-6/">
+<link rel="canonical" href="https://sledgehogsoftware.com/blog/posts/2021-02-26-a-frail-qubit-devlog5/">
 </head>
 
 <body>
@@ -60,55 +60,109 @@
 
 <article class="p-article">
   <header>
-    <h1>Alpha 6</h1>
+    <h1>A Frail Qubit Devlog #005 - Hey, Another Long Break!</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2018-09-12T00:00:00Z">
-          Sep 12, 2018
+        <time datetime="2021-02-27T00:00:00Z">
+          Feb 27, 2021
         </time>
       </div>
       <div class="c-time">
         Last Modified on
-        <time datetime="2018-09-12T00:00:00Z">
-          Feb 23, 2020
+        <time datetime="2021-02-27T00:00:00Z">
+          Feb 27, 2021
         </time>
       </div>
       
-      <a href="https://sledgehogsoftware.com/blog/tags/cubytes" class="c-tag">cubytes</a>
+      <a href="https://sledgehogsoftware.com/blog/tags/a-frail-qubit" class="c-tag">a frail qubit</a>
       
-      <a href="https://sledgehogsoftware.com/blog/tags/release" class="c-tag">release</a>
+      <a href="https://sledgehogsoftware.com/blog/tags/devlog" class="c-tag">devlog</a>
       
     </div>
   </header>
   
   <section id="js-article" class="p-article__body">
     
-    <p>Alpha 6 is now available to download!</p>
-<p>The main new features for this release is Arcade Mode and Black Holes!</p>
-<h2 id="links">Links</h2>
-<ul>
-<li><a href="https://github.com/Battlefrog/Cubytes-Godot/releases/download/0.0.6/Cubytes_Alpha6_Windows64.zip">Windows (64-bit)</a></li>
-<li><a href="https://github.com/Battlefrog/Cubytes-Godot/releases/download/0.0.6/Cubytes_Alpha6_Windows32.zip">Windows (32-bit)</a></li>
-<li><a href="https://github.com/Battlefrog/Cubytes-Godot/releases/download/0.0.6/Cubytes_Alpha6_Linux.zip">Linux</a></li>
-</ul>
-<h2 id="changelog">Changelog</h2>
-<ul>
-<li>Added Arcade Mode.</li>
-<li>Added a completed game flag.</li>
-<li>Added (but not implemented) Cheat Codes.</li>
-<li>Added a black hole SFX.</li>
-<li>Added black holes.</li>
-<li>Added an additional background effect.</li>
-<li>Added Explosion and Endblock particle effects.</li>
-<li>Added Levels 31, 32, 33, 34, 35, 36, 37, 38, 39.</li>
-<li>Added Arcade Levels 1, 2, 3, 4, 5.</li>
-<li>Changed version to Alpha 6.</li>
-<li>Changed Pause Menu.</li>
-<li>Fixed Player Death particles not playing everytime.</li>
-<li>Increased Music Volume.</li>
-<li>Switched Levels 23 and 25.</li>
-</ul>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#2020-a-year-in-review">2020: A Year in Review</a>
+      <ul>
+        <li><a href="#shooters">Shooters</a></li>
+        <li><a href="#distortions-wip">Distortions (WIP)</a>
+          <ul>
+            <li><a href="#dialogue-system">Dialogue System</a></li>
+            <li><a href="#powerups">Powerups</a></li>
+          </ul>
+        </li>
+        <li><a href="#menu-polish">Menu Polish</a>
+          <ul>
+            <li><a href="#main-menu">Main Menu</a></li>
+            <li><a href="#arcade-mode">Arcade Mode</a></li>
+            <li><a href="#options-menu">Options Menu</a></li>
+          </ul>
+        </li>
+        <li><a href="#font">Font</a></li>
+        <li><a href="#removed-click_teleport-cheat">Removed &lsquo;click_teleport&rsquo; Cheat</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-future">The Future.</a>
+      <ul>
+        <li><a href="#adding-a-hostile-mob">Adding a Hostile Mob</a></li>
+        <li><a href="#adding-shooters-early-on">Adding Shooters Early On</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    
+    <h2 id="2020-a-year-in-review">2020: A Year in Review</h2>
+<p>2020 was a hectic year for everyone, including me. COVID turned up suddenly in March and morphed the &lsquo;Normal&rsquo; into something more blatantly depressing, sad, and alienating. The USA, where I live, still hasn&rsquo;t gone back to &lsquo;Normal&rsquo;, to the shame of practically everyone living in this country.</p>
+<p>COVID is quite a heavy topic, so I&rsquo;ll just conclude here.</p>
+<p>If it was just COVID, then I might&rsquo;ve made a ton of progress on A Frail Qubit! However, I did join a mod team early on in 2020 that came to define my year - <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2173766180"><em>The New Order: Last Days of Europe</em></a>. (My name is Battlefrog in the Credits and on the Workshop page!)</p>
+<p>It&rsquo;s been an absolute blast to be on a massive team, working together to achieve a uniformly held vision. It&rsquo;s quite different from creating a game by yourself in your spare time; I&rsquo;d recommend joining a mod team sometime if you are a budding hobby indie developer.</p>
+<p>With regards to A Frail Qubit, however, being on the mod team has really sucked a whole lot of spare time towards it and away from A Frail Qubit. Recently, I realized how much this was the case, and I&rsquo;ve begun to take a little bit of time and put it towards A Frail Qubit again. It&rsquo;s been a nice change of pace.</p>
+<h3 id="shooters">Shooters</h3>
+<p><img src="/blog/static/img/devlog-5-shooter.png" alt="A photo of a Shooter shooting and missing the Player."></p>
+<p>Shooters are bastards: They will shoot at you, and they are a total pain in the ass about it. The best part about them, though? They are actually <em>fun</em> to go against.</p>
+<p>Dodging the bullets of the Shooters requires a quick reaction time and an even quicker ability to dodge the projectiles! I mention this further down this devlog, but Shooters have become my favorite part of A Frail Qubit, so much so that their dynamic nature has inspired me to facelift the beginning of the game.</p>
+<h3 id="distortions-wip">Distortions (WIP)</h3>
+<p><img src="/blog/static/img/devlog-5-distortions.png" alt="A photo of a work-in-progress Distortion."></p>
+<p>Distortions are a new (and welcome) addition to A Frail Qubit this upcoming Alpha. While the looks as of this devlog certainly aren&rsquo;t final, the functionality is for the most part set in stone. Distortions are sort of &lsquo;Hubs&rsquo; for the Player to relax, learn a new Powerup, and interact with the mysterous outside world.</p>
+<h4 id="dialogue-system">Dialogue System</h4>
+<p><img src="/blog/static/img/devlog-5-distortion-dialogue.png" alt="A photo of a work-in-progress dialogue system."></p>
+<p>Yes, a Story will be coming to A Frail Qubit. I mentioned this previously as the <strong>main</strong> reason for adding Distortions, and here is the vehicle for telling that story. While it doesn&rsquo;t look pretty now, the basic functionality is all working. You can advance the dialogue, see who is talking, and get to know the character on the other side of the data.</p>
+<p>Over the coming weeks I&rsquo;ll be adding visual polish to this, as well as showcasing some of the characters you&rsquo;ll be able to get to know over the story of A Frail Qubit.</p>
+<h4 id="powerups">Powerups</h4>
+<p><img src="/blog/static/img/devlog-5-powerups.png" alt="A photo of the &lsquo;Speedup&rsquo; Powerup in the User Interface."></p>
+<p>Powerups, while optional, will certainly help you out a lot. The only currently implemented Powerup is a Speedup Powerup, which gives you a quick boost to your speed.</p>
+<p>I don&rsquo;t want to make these too powerful (You could miss out on a necessary item very easily!) or too weak (What&rsquo;s the point of going in a Distortion for a shit powerup?). This&rsquo;ll be a fine line to cross, and I&rsquo;m not too sure which outcome I&rsquo;d rather want.</p>
+<h3 id="menu-polish">Menu Polish</h3>
+<p>The Menus look a lot better, at least in my opinion. Here are some examples of more polished menus.</p>
+<h4 id="main-menu">Main Menu</h4>
+<p><img src="/blog/static/img/devlog-5-main-menu.png" alt="A photo of the new Main Menu."></p>
+<p>The Main Menu has seen the temporary image removed, and replaced with a bigger title! While not a big change, the image never felt correct. Origionally I was going to add a video montage of various moments throughout the game, but as time went on I kept pushing back on creating that video, until I realized a better solution would be to remove the temporary image. Perhaps I still will add the video, but later down the line once the Graphics have been finalized.</p>
+<p><img src="/blog/static/img/devlog-5-quit-confirmation.png" alt="A photo of the new Quit Confirmation on the Main Menu."></p>
+<p>There&rsquo;s even a Quit confirmation&hellip;</p>
+<h4 id="arcade-mode">Arcade Mode</h4>
+<p><img src="/blog/static/img/devlog-5-arcade-mode.png" alt="A photo of the new Arcade Mode menu."></p>
+<p>While the Arcade Mode menu hasn&rsquo;t been changed <em>too much</em>, the ugly arrows have been replaced with a font-based solution, and the Level Preview images have been given much needed depth.</p>
+<h4 id="options-menu">Options Menu</h4>
+<p><img src="/blog/static/img/devlog-5-options-menu.png" alt="A photo of the new Options Menu."></p>
+<p>You&rsquo;ll see that the infamous Slider&rsquo;s look has changed once again. Finally, it looks normal.</p>
+<h3 id="font">Font</h3>
+<p>The main game font is now Aldrich, completely and shamelessly copied from TNO. What can I say, it&rsquo;s a nice font!</p>
+<h3 id="removed-click_teleport-cheat">Removed &lsquo;click_teleport&rsquo; Cheat</h3>
+<p><img src="/blog/static/img/devlog-5-click-teleport-gone.png" alt="What happens when you try to enable the now-deleted &lsquo;click_teleport&rsquo; cheat."></p>
+<p>Nobody other than me knew about it, but there is an old &lsquo;click_teleport&rsquo; cheat in previous Alphas that did exactly what you&rsquo;d expect it to. It was handy for getting into nice screenshottable positions without having to spend a ton of time getting there without blowing yourself up or dying.</p>
+<p>Sadly, with the new Camera system the cheat has been broken. With the Dialogue Player needing a mouse input and the mouse clicks all teleporting the Player around to God Knows Where, I decided to remove the cheat; It was easier removing it than trying to fix it.</p>
+<h2 id="the-future">The Future.</h2>
+<p>One thing I&rsquo;ve realized recently is that the early game of A Frail Qubit is stained by staticness. Static games are boring. Games are best when they are dynamic systems, with the Player sending shockwaves through a relatively calm world.</p>
+<p>To make A Frail Qubit become a dynamic game, I&rsquo;ve decided to do a couple of things.</p>
+<h3 id="adding-a-hostile-mob">Adding a Hostile Mob</h3>
+<p>This is still in the &lsquo;early-idea&rsquo; stage at the moment, but I&rsquo;m thinking of adding some sort of hostile mob to A Frail Qubit. This mob would be slightly random in nature, and be called something like &lsquo;Pricks&rsquo;. &lsquo;Pricks&rsquo; would be little creatures that run around and, when a near direct line of sight with the Player is established, aggros and attempts to Suicide Bomb the Player. There would occasionally be Spawners of these creatures, and they could also interact with the Shooter. Perhaps they are a higher priority for Shooters to shoot?</p>
+<p>This mob would of course be annoying, but also would be a great addition to the early, static levels. Keeping the Player on their toes is something that all games must do, while in A Frail Qubit the Player is solidly on their feet.</p>
+<h3 id="adding-shooters-early-on">Adding Shooters Early On</h3>
+<p>Shooters have been such a crucial change to the game, so much so that I dread to play the constant static levels before them. Currently, there&rsquo;s quite a lot of levels before them, as Shooters are introduced in the latter-half of content for Alpha 9. I&rsquo;d like to bring that closer to 20 or 25, though that number certainly isn&rsquo;t final.</p>
 
   </section>
   <footer>
@@ -128,12 +182,11 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://sledgehogsoftware.com/blog/posts/2018-08-28-future-cubytes-releases/">Newer</a>
+          <a href="https://sledgehogsoftware.com/blog/posts/2020-02-25-a-frail-qubit-devlog4/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://sledgehogsoftware.com/blog/posts/2018-12-23-alpha-7-when/">Older</a>
           
         </div>
       </div>
@@ -145,9 +198,44 @@
   <ul id="slider" class="p-related__list">
     
     <li class="p-related__item js-related__item">
-      <a href="/blog/posts/2018-08-28-future-cubytes-releases/"
+      <a href="/blog/posts/2020-02-25-a-frail-qubit-devlog4/"
         >
-        <span>Future Cubytes Releases</span>
+        <span>A Frail Qubit Devlog #004 - What&#39;s Been Going On?</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/blog/posts/2020-02-23-its-alive/"
+        >
+        <span>It&#39;s Alive; Or, how I came to revamp this blog.</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/"
+        >
+        <span>Cubytes Devlog #003 - Hiatus No More</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/blog/posts/2019-01-15-web-development-head-first/"
+        >
+        <span>Web Development, Head First</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/blog/posts/2019-01-01-cubytes-devlog-002/"
+        >
+        <span>Cubytes Devlog #002</span>
+      </a>
+    </li>
+    
+    <li class="p-related__item js-related__item">
+      <a href="/blog/posts/2018-12-29-cubytes-devlog-001/"
+        >
+        <span>Cubytes Devlog #001</span>
       </a>
     </li>
     

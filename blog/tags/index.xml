@@ -6,16 +6,12 @@
     <description>Recent content in Tags on Sledgehog Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
-    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sledgehogsoftware.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021 Sledgehog Software</copyright>
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sledgehogsoftware.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>a frail qubit</title>
       <link>https://sledgehogsoftware.com/blog/tags/a-frail-qubit/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/tags/a-frail-qubit/</guid>
       <description></description>
@@ -24,7 +20,7 @@
     <item>
       <title>devlog</title>
       <link>https://sledgehogsoftware.com/blog/tags/devlog/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sledgehogsoftware.com/blog/tags/devlog/</guid>
       <description></description>

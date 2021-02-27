@@ -6,12 +6,8 @@
     <description>Recent content in cubytes on Sledgehog Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Sledgehog Software</copyright>
-    <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://sledgehogsoftware.com/blog/tags/cubytes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2021 Sledgehog Software</copyright>
+    <lastBuildDate>Sat, 30 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sledgehogsoftware.com/blog/tags/cubytes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cubytes Devlog #003 - Hiatus No More</title>
       <link>https://sledgehogsoftware.com/blog/posts/2019-03-30-cubytes-devlog-003-hiatus-no-more/</link>
